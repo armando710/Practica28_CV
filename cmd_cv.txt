@@ -1,0 +1,27 @@
+*************************************************************
+** CV-DOS Version 0.1 - 2018 - @ArmandoAlonsoFernandez.COM **
+*************************************************************
+
+c:\armandoalonsofernandez\>DATOS
+
+  **********DATOS PERSONALES**********
+
+	NOMBRE: Armando Alonso Fernandez
+	FECHA NACIMIENTO: 24/05/1997
+	CONTACTO: armandoaf@gmail.com
+	TLFN: 111-111-111
+
+c:\armandoalonsofernandez\>FOTO
+
+c:\armandoalonsofernandez\>EXPERIENCIA
+
+c:\armandoalonsofernandez\>OBJETIVOS
+
+c:\armandoalonsofernandez\>ESTUDIOS
+
+c:\armandoalonsofernandez\>AFICIONES
+
+
+
+
+	
