@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 <div id="d1">
     <kbd>
-        <p>*************************************************************</p>
-        <p>** CV-DOS Version 0.1 - 2018 - @ArmandoAlonsoFernandez.COM **</p>
-        <p>*************************************************************</p>
+        <p id="t1">*************************************************************</p>
+        <p id="t2">** CV-DOS Version 0.1 - 2018 - @ArmandoAlonsoFernandez.COM **</p>
+        <p id="t3">*************************************************************</p>
     </kbd>
 </div>
 <div id="d2">
     <kbd>
         <p>c:\armandoalonsofernandez\>DATOS</p>
-        <p>**********DATOS PERSONALES**********</p>
-        <p>NOMBRE: Armando <br>
+        <p class="c1">**********DATOS PERSONALES**********</p>
+        <p class="c2">NOMBRE: Armando <br>
             APELLIDOS: Alonso Fernandez <br>
             FECHA NACIMIENTO: 24/05/1997 <br>
             CONTACTO: armandoaf@gmail.com <br>
@@ -28,27 +29,28 @@
 <div id="d3">
     <kbd>
         <p>c:\armandoalonsofernandez\>FOTO</p>
-        <p>==============================</p>
+        <p id="sp1">==============================</p>
     </kbd>
-    <img src="" alt="Mi Foto">
+    <div class="contenedor">
+        <img src="extras/yo.PNG" alt="Mi Foto" class="imagen">
+        <div class="sobre">
+            <div class="texto">Este soy YO</div>
+        </div>
+    </div>
 </div>
 <div id="d4">
     <kbd>
         <p>c:\armandoalonsofernandez\>EXPERIENCIA</p>
-
-        <p>**********EXPERIENCIAS PROFESIONALES**********</p>
-
-        <p>Monitor de juventud y tiempo libre en el grupo scout <strong>Tres Mares</strong></p>
+        <p id="c1">**********EXPERIENCIAS PROFESIONALES**********</p>
+        <p id="c2">Monitor de juventud y tiempo libre en el grupo scout <strong>Tres Mares</strong></p>
 
     </kbd>
 </div>
 <div id="d5">
     <kbd>
         <p>c:\armandoalonsofernandez\>OBJETIVOS</p>
-
-        <p> **********OBJETIVOS LABORALES**********</p>
-
-        <p>Dentro del entorno laboral mis objetivos principales son: adquirir experiencia
+        <p class="c1"> **********OBJETIVOS LABORALES**********</p>
+        <p class="c2">Dentro del entorno laboral mis objetivos principales son: adquirir experiencia
             y ampliar mis conocimientos
         </p>
     </kbd>
@@ -56,18 +58,21 @@
 <div id="d6">
     <kbd>
         <p>c:\armandoalonsofernandez\>ESTUDIOS</p>
-
-        <p>**********ESTUDIOS**********</p>
-
-        <p>BACHILLERATO: IES Alonso Berruguete 2014-2017</p>
+        <p class="c1">**********ESTUDIOS**********</p>
+        <p class="c2">BACHILLERATO: IES Alonso Berruguete 2014-2017</p>
     </kbd>
 </div>
 <div id="d7">
     <kbd>
         <p>c:\armandoalonsofernandez\>OTROS</p>
-
-        <p>**********OTROS DATOS DE INTERES**********</p>
+        <p class="c1">**********OTROS DATOS DE INTERES**********</p>
+        <p class="c2">Páginas web donde muestro mi codigo, uso de VMWare y Arduino</p>
+        <p><a href="https://github.com/armando710">Enlace a GitHub</a></p>
+        <p><a href="https://www.youtube.com/channel/UCGGcJgRijlqJanTBvynKKNw/featured?view_as=subscriber">Enlace a
+            youtube</a></p>
+        <p><a href="mailto:armandoaf@gmail.com">Mi contacto</a></p>
     </kbd>
 </div>
+<audio src="extras/windows-95-startup-microsoft.mp3" autoplay></audio>
 </body>
 </html>
